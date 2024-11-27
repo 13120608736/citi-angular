@@ -182,7 +182,8 @@
             "styles": [
               "projects/inquiry-blotter/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "webWorkerTsConfig": "projects/inquiry-blotter/tsconfig.worker.json"
           },
           "configurations": {
             "production": {
@@ -241,7 +242,8 @@
             "styles": [
               "projects/inquiry-blotter/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "webWorkerTsConfig": "projects/inquiry-blotter/tsconfig.worker.json"
           }
         },
         "lint": {
