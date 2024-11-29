@@ -46,7 +46,7 @@
         }
       }
     },
-    "InquiryCapture": {
+    "inquiry-capture": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -107,10 +107,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "InquiryCapture:build:production"
+              "buildTarget": "inquiry-capture:build:production"
             },
             "development": {
-              "buildTarget": "InquiryCapture:build:development"
+              "buildTarget": "inquiry-capture:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -151,7 +151,7 @@
         }
       }
     },
-    "InquiryBlotter": {
+    "Inquiry-blotter": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -213,10 +213,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "InquiryBlotter:build:production"
+              "buildTarget": "Inquiry-blotter:build:production"
             },
             "development": {
-              "buildTarget": "InquiryBlotter:build:development"
+              "buildTarget": "Inquiry-blotter:build:development"
             }
           },
           "defaultConfiguration": "development"
