@@ -84,6 +84,11 @@
             "styles": [
               "projects/inquiry-capture/src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "node_modules"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
@@ -143,6 +148,11 @@
             "styles": [
               "projects/inquiry-capture/src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "node_modules"
+              ]
+            },
             "scripts": []
           }
         },
@@ -196,6 +206,11 @@
             "styles": [
               "projects/inquiry-blotter/src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "node_modules"
+              ]
+            },
             "scripts": [],
             "webWorkerTsConfig": "projects/inquiry-blotter/tsconfig.worker.json"
           },
@@ -256,6 +271,11 @@
             "styles": [
               "projects/inquiry-blotter/src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "node_modules"
+              ]
+            },
             "scripts": [],
             "webWorkerTsConfig": "projects/inquiry-blotter/tsconfig.worker.json"
           }
