@@ -171,7 +171,7 @@
         }
       }
     },
-    "Inquiry-blotter": {
+    "inquiry-blotter": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -248,10 +248,10 @@
           },
           "configurations": {
             "production": {
-              "buildTarget": "Inquiry-blotter:build:production"
+              "buildTarget": "inquiry-blotter:build:production"
             },
             "development": {
-              "buildTarget": "Inquiry-blotter:build:development"
+              "buildTarget": "inquiry-blotter:build:development"
             }
           },
           "defaultConfiguration": "development"
