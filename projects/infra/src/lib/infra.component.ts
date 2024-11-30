@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'lib-infra',
+  standalone: true,
   imports: [],
   template: `
     <p>
